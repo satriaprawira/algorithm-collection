@@ -4,7 +4,4 @@
 def moneyRoundUp (amount):
   amountRounded = round(amount / 100) * 100
   deviation = amountRounded - amount
-  print(amountRounded)
-  print(deviation)
-
-moneyRoundUp(9999)
+  return amountRounded, deviation
